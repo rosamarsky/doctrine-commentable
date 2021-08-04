@@ -1,0 +1,38 @@
+{
+  "name": "rosamarsky/doctrine-commentable",
+  "version": "1.0",
+  "description": "Simple way to use comments for all entities you wanted.",
+  "keywords": [
+    "doctrine",
+    "comments"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Roman Samarsky",
+      "email": "rosamarsky@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "doctrine/orm": "^2.6|^2.7",
+    "doctrine/persistence": "^1.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.6",
+    "sebastian/version": "^1.0.1",
+    "mockery/mockery": "0.9.*"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Rosamarsky\\DoctrineCommentable\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Rosamarsky\\DoctrineCommentable\\Tests\\": "tests"
+    }
+  }
+}
